@@ -1,0 +1,115 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.head {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.propertySlider {
+    padding: 10px;
+}
+
+.propertyCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0 10px;
+    max-width: 300px;
+    height: 350px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.propertyCard:hover {
+    transform: translateY(-5px);
+}
+
+.propertyImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.propertyTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.propertyLocation,
+.propertyPrice,
+.propertySize {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.propertyLocation i {
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+    .propertyCard {
+        max-width: 250px;
+    }
+
+    .propertyImage {
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .propertyCard {
+        max-width: 220px;
+    }
+
+    .propertyImage {
+        height: 130px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .propertyCard {
+        max-width: 200px;
+    }
+
+    .propertyImage {
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}

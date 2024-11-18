@@ -1,0 +1,62 @@
+.homeSection {
+    position: relative;
+    height: 85vh;
+    background-image: url('images/element.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .welcomeMessage {
+    margin-bottom: 10rem; 
+  }
+  
+  .welcomeMessage h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 480px) {
+    .homeSection {
+        height: auto;
+        padding: 1rem;
+    }
+  
+   
+  
+    .welcomeMessage h1 {
+        font-size: 1.5rem;
+    }
+  
+   
+  
+  }
+    
+   
+  
+    
+  
+  
